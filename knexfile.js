@@ -10,7 +10,7 @@ module.exports = {
     port: 3306,
     database: 'example',
     user: 'root',
-    password: 'Tieuquangdethuong2811@',
+    password: 'Hdang123@',
   },
   pool: {
     min: 2,
