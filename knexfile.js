@@ -10,10 +10,16 @@ module.exports = {
     port: 3306,
     database: 'example',
     user: 'root',
-    password: 'Tieuquangdethuong2811@',
+    // password: 'Hdang123@',
   },
   pool: {
     min: 2,
     max: 10,
   },
+  migrations: {
+    directory: './migrations',
+  },
+  seeds: {
+    directory: './seeds',
+  }
 };
